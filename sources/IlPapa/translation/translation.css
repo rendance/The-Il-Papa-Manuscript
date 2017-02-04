@@ -5,6 +5,13 @@
 	flex-direction: column;
 	background-color: gainsboro;
 }
+.links-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
 .translation-line {
 	background-color: gainsboro;
 	display: -webkit-flex;
@@ -50,7 +57,7 @@
 	border: 1px solid darkgrey;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-bottom: 5px;
 }
 em.foreign {
