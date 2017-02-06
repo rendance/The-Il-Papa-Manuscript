@@ -1,0 +1,64 @@
+body {
+    background-color: gainsboro;
+}
+table {
+    border: 1px solid darkgrey;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 2px;
+}
+td.notes {
+    text-align: left;
+}
+.columns {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	background-color: gainsboro;
+}
+.column-1 {
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 100%;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.column-2 {
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 50%;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.column-3 {
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 33%;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.column-4 {
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 25%;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.original {
+    visibility: hidden;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+.instr:hover .original {
+    visibility: visible;
+}
+.notes:hover .original {
+    visibility: visible;
+}
