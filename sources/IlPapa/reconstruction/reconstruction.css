@@ -13,6 +13,11 @@ th, td {
 td.notes {
     text-align: left;
 }
+td.section {
+	text-align: left;
+	padding-top: 10px;
+	font-size: 125%;
+}
 .columns {
 	display: -webkit-flex;
 	-webkit-flex-direction: row;
