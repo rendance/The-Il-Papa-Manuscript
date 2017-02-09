@@ -1,0 +1,46 @@
+.transcription-container {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	background-color: gainsboro;
+}
+.transcription-line {
+	background-color: gainsboro;
+	display: -webkit-flex;
+	-webkit-align-content: center;
+	display: flex;
+	align-content: center;
+}
+.line-number {
+	background-color: gainsboro;
+	border-radius: 10px;
+	width: 8%;
+	padding: 5px;
+}
+.transcription {
+	background-color: whitesmoke;
+	border-radius: 10px;
+	width: 46%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.transcription-comment {
+	background-color: ghostwhite;
+	border-radius: 10px;
+	width: 46%;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid darkgrey;
+	padding: 5px;
+}
+.line-ref {
+	background-color: lightsteelblue;
+	border-radius: 10px;
+	border: 1px solid darkgrey;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
