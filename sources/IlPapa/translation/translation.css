@@ -1,64 +1,64 @@
 .translation-container {
-	display: -webkit-flex;
-	-webkit-flex-direction: column;
-	display: flex;
-	flex-direction: column;
-	background-color: gainsboro;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
 }
 .links-container {
-	display: -webkit-flex;
-	display: flex;
-	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .translation-line {
-	background-color: gainsboro;
-	display: -webkit-flex;
-	-webkit-align-content: center;
-	display: flex;
-	align-content: center;
+    background-color: gainsboro;
+    display: -webkit-flex;
+    -webkit-align-content: center;
+    display: flex;
+    align-content: center;
 }
 .line-number {
-	background-color: gainsboro;
-	border-radius: 10px;
-	width: 8%;
-	padding: 5px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 8%;
+    padding: 5px;
 }
 .translation-italian {
-	background-color: whitesmoke;
-	border-radius: 10px;
-	width: 46%;
-	margin-left: 5px;
-	margin-right: 5px;
-	border: 1px solid darkgrey;
-	padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 46%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid darkgrey;
+    padding: 5px;
 }
 .translation-english {
-	background-color: ghostwhite;
-	border-radius: 10px;
-	width: 46%;
-	margin-left: 5px;
-	margin-right: 5px;
-	border: 1px solid darkgrey;
-	padding: 5px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 46%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid darkgrey;
+    padding: 5px;
 }
 .line-ref {
-	background-color: lightsteelblue;
-	border-radius: 10px;
-	border: 1px solid darkgrey;
-	padding-top: 2px;
-	padding-left: 5px;
-	padding-right: 5px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .quick-link {
-	background-color: lightsteelblue;
-	border-radius: 10px;
-	border: 1px solid darkgrey;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 em.foreign {
 }
