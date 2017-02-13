@@ -15,16 +15,22 @@
 .transcription-separator {
 	height: 20px;
 }
+.transcription-page {
+	background-color: ghostwhite;
+	border-radius: 10px;
+	width: 675px;
+	padding: 5px;
+}
 .line-number {
     background-color: gainsboro;
     border-radius: 10px;
-    width: 8%;
+    width: 60px;
     padding: 5px;
 }
 .transcription {
     background-color: whitesmoke;
     border-radius: 10px;
-    width: 46%;
+    width: 600px;
     margin-left: 5px;
     margin-right: 5px;
     border: 1px solid darkgrey;
@@ -33,7 +39,6 @@
 .transcription-comment {
     background-color: ghostwhite;
     border-radius: 10px;
-    width: 46%;
     margin-left: 5px;
     margin-right: 5px;
     border: 1px solid darkgrey;
