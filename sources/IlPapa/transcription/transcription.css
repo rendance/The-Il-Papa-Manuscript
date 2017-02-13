@@ -12,6 +12,9 @@
     display: flex;
     align-content: center;
 }
+.transcription-separator {
+	height: 20px;
+}
 .line-number {
     background-color: gainsboro;
     border-radius: 10px;
