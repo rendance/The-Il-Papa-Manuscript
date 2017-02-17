@@ -5,13 +5,49 @@ table {
     border: 1px solid darkgrey;
     border-collapse: collapse;
 }
+.links-container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+.links-container-line {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.quick-link {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 th, td {
     border: 1px solid lightgrey;
     text-align: center;
     padding: 2px;
 }
+td.steps {
+	text-align: center;
+}
+table.notes {
+	border: none;
+}
+th.notes {
+    text-align: left;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 td.notes {
     text-align: left;
+	border: none;
 }
 td.section {
 	text-align: left;
@@ -52,20 +88,6 @@ td.section {
 	width: 25%;
 	border: 1px solid darkgrey;
 	padding: 5px;
-}
-.original {
-    visibility: hidden;
-    border-radius: 6px;
-    border: 1px solid lightgrey;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-}
-.instr:hover .original {
-    visibility: visible;
-}
-.notes:hover .original {
-    visibility: visible;
 }
 em.foreign {
 }
