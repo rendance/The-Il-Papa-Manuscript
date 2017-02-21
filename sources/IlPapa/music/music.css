@@ -1,0 +1,25 @@
+body {
+    background-color: gainsboro;
+}
+.links-container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+.links-container-line {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+.quick-link {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
