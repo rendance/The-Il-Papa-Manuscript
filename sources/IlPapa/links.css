@@ -1,0 +1,38 @@
+/* A list of page link buttons; here to keep rows of link buttons together in one group */
+.links-list {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+/* A row of link buttons of the same type */
+.links-row {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+/* A single link button */
+.quick-link {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* A class in which to enclose line references throughout the site, so as to 
+ * provide a consistent format everywhere.
+ */
+mark.line-ref {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
