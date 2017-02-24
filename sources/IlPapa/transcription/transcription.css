@@ -5,8 +5,10 @@ body {
 /* A container for the entire transcription */
 .transcription-container {
 }
-/* A single line of transcription */
-.transcription-line {
+/* A single line of transcription
+ * tl stands for transcription-line
+ */
+.tl {
 }
 /* A page marker, indicating where in the transcription we currently are
  * tp stands for transcription-page
