@@ -1,5 +1,17 @@
-/* A list of page link buttons; here to keep rows of link buttons together in one group */
-.links-list {
+/* A list of page link buttons for the top of the page; here to keep rows of 
+ * link buttons together in one group */
+.links-list-top {
+	margin-bottom: 100px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+/* A list of page link buttons for the bottom of the page; here to keep rows of 
+ * link buttons together in one group */
+.links-list-bottom {
+	margin-top: 100px;
     display: -webkit-flex;
     -webkit-flex-direction: column;
     display: flex;
