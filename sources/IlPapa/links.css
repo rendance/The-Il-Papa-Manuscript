@@ -36,3 +36,10 @@ mark.line-ref {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+/* A style to use to mark a given section as the one referenced (when jumping 
+ * from page to page following sourde references)
+ */
+.highlight {
+	background-color: yellow;
+}
