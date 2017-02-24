@@ -1,69 +1,63 @@
+body {
+    background-color: blanchedalmond;
+}
+
+/* A container for the entire transcription */
 .transcription-container {
-    display: -webkit-flex;
-    -webkit-flex-direction: column;
-    display: flex;
-    flex-direction: column;
-    background-color: gainsboro;
 }
-.links-container {
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-}
-.quick-link {
-    background-color: lightsteelblue;
-    border-radius: 10px;
-    border: 1px solid darkgrey;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+/* A single line of transcription */
 .transcription-line {
-    background-color: gainsboro;
-    display: -webkit-flex;
-    -webkit-align-content: center;
-    display: flex;
-    align-content: center;
 }
-.transcription-separator {
-	height: 20px;
-}
-.transcription-page {
-	background-color: ghostwhite;
-	border-radius: 10px;
-	width: 675px;
-	padding: 5px;
-}
-.line-number {
-    background-color: gainsboro;
+/* A page marker, indicating where in the transcription we currently are
+ * tp stands for transcription-page
+ */
+.tp {
+    background-color: steelblue;
+    color: whitesmoke;
     border-radius: 10px;
-    width: 60px;
+    padding: 10px;
+}
+/* Link decorations to be used within .tp for buttons forwards to the next page 
+ * or backwards to the last one
+ * pl stands for page-link
+ */
+a.pl:link {
+    text-decoration: none;
+    background-color: #95b3d3;
+    color: blue;
+    padding: 3px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+a.pl:visited {
+    text-decoration: none;
+    background-color: #95b3d3;
+    color: blue;
+    padding: 3px;
+    padding-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* A container for the line number on a page
+ * ln stands for line-number
+ */
+.ln {
+    width: 8%;
+}
+/* A container for the text of the current line
+ * tt stands for transcription-text
+ */
+.tt {
+    width: 50%;
+}
+/* A container for comments about the current line
+ * tc stands for transcription-commment
+ */
+.tc {
+    background-color: burlywood;
+    border-radius: 10px;
+    margin: -5px;
     padding: 5px;
-}
-.transcription {
-    background-color: whitesmoke;
-    border-radius: 10px;
-    width: 600px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid darkgrey;
-    padding: 5px;
-}
-.transcription-comment {
-    background-color: ghostwhite;
-    border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border: 1px solid darkgrey;
-    padding: 5px;
-}
-.line-ref {
-    background-color: lightsteelblue;
-    border-radius: 10px;
-    border: 1px solid darkgrey;
-    padding-top: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
