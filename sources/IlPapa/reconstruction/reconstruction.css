@@ -39,6 +39,9 @@ td.steps {
 table.notes {
 	border: none;
 }
+td.trans {
+	width: 12%;
+}
 th.notes {
     text-align: left;
 	border: none;
@@ -90,4 +93,10 @@ td.section {
 	padding: 5px;
 }
 em.foreign {
+}
+sub {
+	font-size: 50%;
+}
+sub.explicit {
+	color: firebrick;
 }
