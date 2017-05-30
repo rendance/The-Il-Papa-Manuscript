@@ -97,6 +97,6 @@ em.foreign {
 sub {
 	font-size: 50%;
 }
-sub.explicit {
+.explicit {
 	color: firebrick;
 }
