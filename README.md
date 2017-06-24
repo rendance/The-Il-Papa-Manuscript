@@ -1,12 +1,18 @@
-# RenDance
-A repository of Renaissance dance information, put up by Susan and
-Nathan Kronenfeld.
+# The Il Papa manuscript
 
-This information is free for use, with attribution, for non-commercial
-use (including any and all accademic use) - we will determine under 
-exactly what license soon.
+This repository contains a transcription, translation, and set of
+reconstructiongs of the Il Papa manuscript.  This manuscript
+contains an introduction, and 15 dances by three authors, known
+only as Giovannino, Il Lanzino, and Il Papa.  Two dances each are
+assigned to Il Lanzino and Il Papa; the remaining 11 are assigned
+to Giovannino.  The introduction is signed by Il Papa, hence the
+common name of the manuscript.
 
-For commercial use, please contact us - it would probably be similarly
-free for use, but until we know what possible commercial use one might
-make of this, we wish to reserve those rights.
+The original manuscript is in
+[the New York Public Library](https://www.nypl.org/node/33839)
 
+This transcription, translation, and these reconstructions are
+created and copyright by Susan E. and Nathan Kronenfeld (though we
+welcome participation from others).  The whole is open for use
+under the Creative Commons Attribution licence
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
