@@ -100,3 +100,6 @@ sub {
 .explicit {
 	color: firebrick;
 }
+.conjecture {
+	color: lightseagreen;
+}
