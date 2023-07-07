@@ -30,3 +30,5 @@ watermark, it might lead to a more exact dating of the
 manuscript.  We would very much appreciate being notified of
 any such information - though the most important people to tell
 are probably at the NYPL.
+
+The viewable version is at [https://rendance.github.io/The-Il-Papa-Manuscript/](https://rendance.github.io/The-Il-Papa-Manuscript/)
